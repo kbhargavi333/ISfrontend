@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    margin-bottom: 5%;
+  }
+  
+  .nav-link {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    margin-left: 4%;
+
+  }
+  
+  .login {
+    border: 1px solid black;
+    color: red;
+    border-radius: 15px;
+    padding-bottom: 0.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
+  }
+  .register{
+    border: 1px solid black;
+    color: red;
+    border-radius: 15px;
+    padding-bottom: 0.5rem;
+  }
+  
+  .title {
+    color: #6F00FF;
+    font-size: 17px;
+    font-family: cursive;
+    margin-left: 13%;
+  }
+  .hunt{
+    color: orangered;
+  }
+  @media (min-width: 576px) {
+    .nav {
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 1%;
+    }
+    
+  }
+  

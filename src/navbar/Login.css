@@ -1,0 +1,81 @@
+
+.login1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+  
+  .loginadmin {
+    margin-bottom: 20px;
+  }
+  
+  .loghead {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .loginform {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+  }
+  
+  .loginform label {
+    margin-bottom: 10px;
+  }
+  
+  .loginform input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .logmainbtn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .createanact {
+    margin-top: 20px;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px; 
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  

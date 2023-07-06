@@ -1,0 +1,41 @@
+.register1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.loginadmin {
+  margin-bottom: 20px;
+}
+
+.regishead {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.regisform {
+  display: flex;
+  flex-direction: column;
+}
+
+.regisform label {
+  margin-bottom: 10px;
+}
+
+.regisform input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.regisbtn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.already {
+  margin-top: 20px;
+}
