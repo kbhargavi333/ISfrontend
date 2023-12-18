@@ -1,73 +1,99 @@
-
 .jobs {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    margin-left: 10%;
-  }
-  
-  .flex-box {
-    margin-bottom: 20px; 
-  }
-  
-  .cash {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .cashitem {
-    display: flex; 
-    align-items: center;
-    margin-right: 10px; 
-    background-color: lightgray;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-radius: 5px;
-  }
-  
-  .cashicon {
-    transform: translateY(2px);
-    font-size: 20px;
-  }
-  .applystatus {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-left: 10%;
+  width: 80%; /* Adjusted width for better responsiveness */
+}
+
+.flex-box {
+  margin-bottom: 20px;
+}
+
+.cash {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cashitem {
   display: flex;
   align-items: center;
-  }
-  
-  .applyicon {
+  margin-right: 10px;
+  background-color: lightgray;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 5px;
+}
+
+.cashicon {
+  transform: translateY(2px);
+  font-size: 20px;
+}
+
+.applystatus {
+  display: flex;
+  align-items: center;
+}
+
+.applyicon {
   transform: rotate(50deg);
   color: blue;
+}
+
+.jobcard {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  margin-right: 0;
+  width: 100%; /* Adjusted width for better responsiveness */
+}
+
+.formapply a {
+  text-decoration: none;
+  color: black;
+}
+
+.formapply:hover {
+  font-size: larger;
+}
+
+.jobcard h2 {
+  display: flex;
+  align-items: center;
+}
+
+.jobcard h2 span {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jobcard h2 .threedot {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs {
+    margin-left: 10%;
+    width: 70%; 
   }
+
   .jobcard {
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    padding-left: 20px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-    margin-right: 50%;
+    margin-right: 0;
   }
-  .formapply a{
-    text-decoration: none;
-    color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .jobs {
+    margin-left: 5%;
+    width: 90%; 
   }
-  .formapply :hover{
-    font-size: larger;
+
+  .jobcard {
+    margin-right: 0;
+    width: 100%;
   }
-  .jobcard h2 {
-    display: flex;
-    align-items: center;
-  }
-  
-  .jobcard h2 span {
-    flex-grow: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .jobcard h2 .threedot {
-    margin-left: 10px;
-    font-size: 20px;
-  }
-  
-  
-  
+}
