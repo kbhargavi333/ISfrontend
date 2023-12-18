@@ -24,16 +24,14 @@
     border: 1px solid black;
     color: red;
     border-radius: 15px;
-    padding-bottom: 0.5rem;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    text-align: center;
 
   }
   .register{
     border: 1px solid black;
     color: red;
     border-radius: 15px;
-    padding-bottom: 0.5rem;
+    text-align: center;
   }
   
   .title {
