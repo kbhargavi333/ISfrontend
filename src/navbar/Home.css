@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 h1 {
@@ -64,8 +64,16 @@ b {
   }
 
   .jobbutton {
-    margin-top: 3%;
     font-size: 16px;
     padding: 4px 8px;
   }
+  .footer {
+    padding: 2px; 
+  }
+
+  .telegram {
+    font-size: 25px; 
+    transform: translateY(25%); 
+  }
+  
 }
