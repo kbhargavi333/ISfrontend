@@ -1,38 +1,69 @@
 .container1 {
-    display: flex;
-    flex-direction: column;
-    margin: 2%;
-    margin-left: 27%;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  margin-left: 27%;
+}
+
+.inputfield {
+  width: 63.5%;
+  height: 40px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.required-star {
+  color: red;
+  margin-left: 5px;
+}
+
+.inputemailphone {
+  display: flex;
+  flex-direction: column;
+}
+
+.resumeupload {
+  margin-bottom: 20px; 
+}
+
+.afterdrag {
+  margin-top: 20%;
+}
+
+.afterdrag h2 {
+  font-size: 16px;
+}
+
+.applybutton {
+  width: 65%;
+  height: 40px;
+  background-color: gray;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .container1 {
+    margin-left: 5%;
+  }
+  .applybutton{
+    width: 100%;
+  }
+
+  .inputfield {
+    height: 30px;
+  }
+
+  .resumeupload{
+    margin-top: 10%;
 
   }
-  .inputfield{
-    width: 30%;
-    height: 30px;
-    border-radius: 7px;
+  .afterdrag {
+    margin-top: 50%;
   }
-  .required-star {
-    color: red;
-    margin-left: 5px;
+
+  .afterdrag h2 {
+    font-size: 14px;
   }
-  .inputemailphone{
-    display: flex;
-    flex-direction: row;
-  }
-  ::placeholder{
-    padding-left: 3%;
-  }
-  .afterdrag{
-    margin-top: 20%;
-  }
- 
-  .applybutton{
-    width: 200px;
-    height: 40px;
-    background-color: gray;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    margin-left: 25%;
-    
-    }
-  
+}
